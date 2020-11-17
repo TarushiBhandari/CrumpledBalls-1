@@ -46,7 +46,7 @@ function keyPressed(){
 	if(keyCode===UP_ARROW){
 
 		Paper.position= trash.position;
-		Matter.Body.applyForce(trash.body,trash.body.position,{x:0.5,y:-1});
+		Matter.Body.applyForce(trash.body,trash.body.position,{x:130,y:-145});
 		trash.isStatic= true;
 	}
 }
