@@ -20,7 +20,7 @@ function setup() {
 	world = engine.world;
 
 	ground = new Ground(600,680,1200,10);
-	trash= new Paper(80,200,20);
+	trash= new Paper(200,450,70);
     side1= new Dustbin(780,625,15,100);
 	side2= new Dustbin(697,667,150,15);
 	side3= new Dustbin(620,625,15,100);
